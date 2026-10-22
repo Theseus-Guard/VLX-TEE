@@ -1,0 +1,28 @@
+# Python & C++ build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.dylib
+*.o
+build/
+_build/
+dist/
+*.egg-info/
+.venv/
+venv/
+
+# LaTeX intermediate files
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.synctex.gz
+
+# macOS & IDE
+.DS_Store
+.vscode/
+.idea/
+.agent_cache/

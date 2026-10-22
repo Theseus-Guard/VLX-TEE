@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" width="100%" height="100%">
+<rect width="100%" height="100%" fill="#ffffff" rx="8"/>
+<text x="450" y="26" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="bold" fill="#0f172a">Figure 3: Synthetic RoPE-Outlier Fidelity vs. Compression Ratio (Python Mixed-FP32/FP16 &amp; Native C++17 NEON)</text>
+<text x="450" y="45" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#475569">Single-Page Synthetic KV Proxy (KV Seed=42, Device-Specific Query Seed=99): GQA = Attention Output Cos; MLA = Attention Weights Cos</text>
+<text x="235.0" y="72" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#1e293b">GQA-Standard: Attention Output Cosine (V Present)</text>
+<rect x="35" y="85" width="400" height="210" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1" rx="4"/>
+<rect x="51.0" y="257.0" width="68.0" height="38.0" fill="#ef4444" rx="3"/>
+<text x="85.0" y="239.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9.5" font-weight="bold" fill="#0f172a">Py:0.9924</text>
+<text x="85.0" y="251.0" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="bold" fill="#ef4444">C++:0.9936 (3.20x)</text>
+<text x="85.0" y="313" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9.5" font-weight="600" fill="#334155">INT4 (All)</text>
+<rect x="151.0" y="195.9" width="68.0" height="99.1" fill="#10b981" rx="3"/>
+<text x="185.0" y="177.9" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9.5" font-weight="bold" fill="#0f172a">Py:0.9962</text>
+<text x="185.0" y="189.9" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="bold" fill="#10b981">C++:0.9961 (2.67x)</text>
+<text x="185.0" y="313" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9.5" font-weight="600" fill="#334155">INT4 + RoPE-FP8</text>
+<rect x="251.0" y="195.9" width="68.0" height="99.1" fill="#64748b" rx="3"/>
+<text x="285.0" y="177.9" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9.5" font-weight="bold" fill="#0f172a">Py:0.9962</text>
+<text x="285.0" y="189.9" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="bold" fill="#64748b">C++:0.9961 (2.06x)</text>
+<text x="285.0" y="313" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9.5" font-weight="600" fill="#334155">INT4 + RoPE-FP16</text>
+<rect x="351.0" y="193.9" width="68.0" height="101.1" fill="#3b82f6" rx="3"/>
+<text x="385.0" y="175.9" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9.5" font-weight="bold" fill="#0f172a">Py:0.9963</text>
+<text x="385.0" y="187.9" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="bold" fill="#3b82f6">C++:0.9964 (2.28x)</text>
+<text x="385.0" y="313" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9.5" font-weight="600" fill="#334155">K8V4 + RoPE-FP8</text>
+<text x="665.0" y="72" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#1e293b">DeepSeek-MLA: Softmax Attention Weights Cosine (V=None)</text>
+<rect x="465" y="85" width="400" height="210" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1" rx="4"/>
+<rect x="481.0" y="153.5" width="68.0" height="141.5" fill="#ef4444" rx="3"/>
+<text x="515.0" y="135.5" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9.5" font-weight="bold" fill="#0f172a">Py:0.9988</text>
+<text x="515.0" y="147.5" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="bold" fill="#ef4444">C++:0.9986 (3.20x)</text>
+<text x="515.0" y="313" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9.5" font-weight="600" fill="#334155">INT4 (All)</text>
+<rect x="581.0" y="143.4" width="68.0" height="151.6" fill="#10b981" rx="3"/>
+<text x="615.0" y="125.4" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9.5" font-weight="bold" fill="#0f172a">Py:0.9995</text>
+<text x="615.0" y="137.4" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="bold" fill="#10b981">C++:0.9995 (2.94x)</text>
+<text x="615.0" y="313" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9.5" font-weight="600" fill="#334155">INT4 + RoPE-FP8</text>
+<rect x="681.0" y="142.7" width="68.0" height="152.3" fill="#64748b" rx="3"/>
+<text x="715.0" y="124.7" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9.5" font-weight="bold" fill="#0f172a">Py:0.9995</text>
+<text x="715.0" y="136.7" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="bold" fill="#64748b">C++:0.9995 (2.57x)</text>
+<text x="715.0" y="313" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9.5" font-weight="600" fill="#334155">INT4 + RoPE-FP16</text>
+<rect x="781.0" y="135.1" width="68.0" height="159.9" fill="#3b82f6" rx="3"/>
+<text x="815.0" y="117.1" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9.5" font-weight="bold" fill="#0f172a">Py:1.0000</text>
+<text x="815.0" y="129.1" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="bold" fill="#3b82f6">C++:1.0000 (1.78x)</text>
+<text x="815.0" y="313" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9.5" font-weight="600" fill="#334155">K8V4 + RoPE-FP8</text>
+<text x="450" y="342" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="11.5" font-weight="bold" fill="#334155">Simulated Cosine Similarity (GQA: Attention-Weighted V Output; Single-Buffer MLA: Softmax Attention Weights)</text>
+</svg>
