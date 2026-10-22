@@ -24,5 +24,15 @@
     "AEAD",
     "SIMD",
     "Theseus Guard"
+  ],
+  "version": "v1.0.0",
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/Theseus-Guard/ZTCP/tree/v1.0.0",
+      "relation": "isSupplementTo",
+      "resource_type": "software",
+      "scheme": "url"
+    }
   ]
 }

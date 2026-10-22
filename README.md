@@ -2,14 +2,14 @@
 
 **Zero-Trust Cold Pages (`ZTCP`)** — Fused RoPE-preserving KV-cache quantization & authenticated encryption (**256-bit IETF RFC 8439 ChaCha20 + 128-bit SipHash-2-4-128 Encrypt-then-MAC**, **26.65 ± 0.46 GB/s hot / 10.00 ± 0.17 GB/s wire egress**, **25.84 ± 0.28 GB/s hot ingress SIMD**) for distributed RDMA LLM serving (**SGLang HiCache**, **vLLM / LMCache**, **Mooncake**).
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23555749.svg)](https://doi.org/10.5281/zenodo.23555749)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23527047.svg)](https://doi.org/10.5281/zenodo.23527047)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 [![Paper PDF](https://img.shields.io/badge/Paper-ZTCP__Paper.pdf-b31b1b.svg)](research/paper/ZTCP_Paper.pdf)
 [![Benchmark Results](https://img.shields.io/badge/Benchmarks-26.65_GB%2Fs_Hot_(10.00_GB%2Fs_Wire)-10b981.svg)](research/benchmarks/RESULTS_LOG.md)
 [![Theseus Guard](https://img.shields.io/badge/Theseus_Guard-DREP_%7C_ZT--ADP_%7C_TG--Sentinel:G1-1e3a8a.svg)](https://theseusguard.com)
 
 - **Paper:** [Zero-Trust Cold Pages: Accelerating Distributed RDMA KV-Cache Offloading via Fused Asymmetric Quantization and Authenticated Encryption (`research/paper/ZTCP_Paper.pdf`)](research/paper/ZTCP_Paper.pdf)
-- **DOI:** [`10.5281/zenodo.23555749`](https://doi.org/10.5281/zenodo.23555749) (Concept DOI: [`10.5281/zenodo.23555748`](https://doi.org/10.5281/zenodo.23555748))
+- **DOI:** [`10.5281/zenodo.23527047`](https://doi.org/10.5281/zenodo.23527047)
 - **Author:** Hakan Damar · Founder, Theseus Guard, Inc. (`hakan.damar@theseusguard.com`)
 - **Full 5-Run Experimental Log & Raw Per-Process Artifact:** [`research/benchmarks/RESULTS_LOG.md`](research/benchmarks/RESULTS_LOG.md) · [`research/benchmarks/latest_results.json`](research/benchmarks/latest_results.json)
 
@@ -137,7 +137,7 @@ For enterprise licensing or architecture inquiries, contact **TG-Team** at [cont
   institution = {Theseus Guard Research},
   year        = {2026},
   month       = oct,
-  doi         = {10.5281/zenodo.23555749},
-  url         = {https://doi.org/10.5281/zenodo.23555749}
+  doi         = {10.5281/zenodo.23527047},
+  url         = {https://doi.org/10.5281/zenodo.23527047}
 }
 ```
