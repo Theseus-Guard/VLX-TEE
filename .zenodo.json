@@ -1,0 +1,28 @@
+{
+  "title": "Zero-Trust Cold Pages (ZTCP): Accelerating Distributed RDMA KV-Cache Offloading via Fused Asymmetric Quantization and Authenticated Encryption",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "description": "Official C++17 ARMv8.5-A FP16 NEON fused quantization + authenticated encryption (256-bit IETF RFC 8439 ChaCha20 + 128-bit SipHash-2-4-128 Encrypt-then-MAC) cold-page codec (26.65 +/- 0.46 GB/s hot / 10.00 +/- 0.17 GB/s wire egress and 25.84 +/- 0.28 GB/s hot ingress into preallocated CPU buffers across N=5 independent OS process runs), 32-byte AAD wire specification, reproducible benchmark suite, and paper for Zero-Trust Cold Pages (ZTCP) in distributed RDMA LLM serving (SGLang HiCache, vLLM/LMCache, Mooncake).",
+  "creators": [
+    {
+      "name": "Damar, Hakan",
+      "affiliation": "Theseus Guard, Inc."
+    }
+  ],
+  "license": "Apache-2.0",
+  "keywords": [
+    "KV-Cache",
+    "LLM Inference",
+    "RDMA",
+    "SGLang",
+    "LMCache",
+    "Mooncake",
+    "vLLM",
+    "Quantization",
+    "Confidential Computing",
+    "Zero-Trust",
+    "AEAD",
+    "SIMD",
+    "Theseus Guard"
+  ]
+}

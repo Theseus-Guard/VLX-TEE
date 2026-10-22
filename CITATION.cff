@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use Zero-Trust Cold Pages (ZTCP) in your research or distributed inference stack, please cite the following work."
+title: "Zero-Trust Cold Pages: Accelerating Distributed RDMA KV-Cache Offloading via Fused Asymmetric Quantization and Authenticated Encryption"
+authors:
+  - family-names: "Damar"
+    given-names: "Hakan"
+    affiliation: "Theseus Guard, Inc."
+    email: "hakan.damar@theseusguard.com"
+date-released: "2026-10-22"
+version: "1.0.0"
+doi: "10.5281/zenodo.23527048"
+license: "Apache-2.0"
+url: "https://github.com/Theseus-Guard/ZTCP"
+repository-code: "https://github.com/Theseus-Guard/ZTCP"
+preferred-citation:
+  type: article
+  title: "Zero-Trust Cold Pages: Accelerating Distributed RDMA KV-Cache Offloading via Fused Asymmetric Quantization and Authenticated Encryption"
+  authors:
+    - family-names: "Damar"
+      given-names: "Hakan"
+      affiliation: "Theseus Guard, Inc."
+  year: 2026
+  month: 10
+  institution: "Theseus Guard Research"
+  doi: "10.5281/zenodo.23527048"
+  url: "https://doi.org/10.5281/zenodo.23527048"
